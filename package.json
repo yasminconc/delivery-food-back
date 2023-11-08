@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "clear && tsc && node ./build",
-    "dev": "ts-node-dev ./src/index.ts"
+    "dev": "ts-node-dev ./src/index.ts",
+    "vercel-build": "npx prisma generate dev"
   },
   "keywords": [],
   "author": "",
